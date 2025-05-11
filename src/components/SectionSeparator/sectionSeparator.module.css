@@ -1,0 +1,16 @@
+.sepSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sepSection p{
+    color: #dadada;
+    padding: 0px;
+    margin: 0px;
+}
+
+[data-theme='dark'] .sepSection p{
+    color: #454545;
+  }

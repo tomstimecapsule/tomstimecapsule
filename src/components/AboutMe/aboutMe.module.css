@@ -1,0 +1,88 @@
+.sectionContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: var(--ifm-container-width-xl);
+    align-items: center;
+    gap: 40px;
+}
+
+.sectionContainer img{
+    border-radius: 50% 5% 50% 5%;
+    max-width: 28%;
+}
+
+.pageTitle{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    letter-spacing: -2px;
+    font-size: 3rem;
+  }
+
+.mainContainer{
+    max-width: 100%;
+}
+
+.profileText{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.paragraph p {
+    margin-bottom: 5px;
+}
+
+.buttonSep{
+    gap: 20px;
+    display: flex;
+}
+
+.buttonLike{
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 30px 10px 30px;
+    background-color: var(--image-overlay-1);
+    border-color: var(--ifm-color-primary);
+    border-width: 2px;
+    border-style: solid;
+    font-family: var(--ifm-font-family-base);
+    color: var(--imf--color-nav-icons);
+} 
+
+.subscribeButtonLike{
+    background-color: var(--ifm-color-primary);
+    color: var(--image-overlay-2);
+}
+
+.buttonLike:hover{
+    text-decoration: none !important;
+} 
+
+.subscribeButtonLike:hover{
+    color: var(--color-subscribe-btn-hover);
+}
+
+
+@media screen and (max-width: 450px) {
+    .sectionContainer {
+        flex-direction: column;
+        width: var(--ifm-container-width-s);
+    }
+
+    .sectionContainer img{
+        border-radius: 50% 5% 50% 5%;
+        max-width: 60%;
+    }
+}

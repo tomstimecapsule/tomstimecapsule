@@ -1,0 +1,24 @@
+SocialMedia:
+  label: Social Media
+  permalink: /socialmedia
+  description: SocialMedia tag description
+
+Travel:
+  label: Travel
+  permalink: /travel
+  description: Travel tag description
+
+Backpacking:
+  label: Backpacking
+  permalink: /backpacking
+  description: Backpacking tag description
+
+Asia:
+  label: Asia
+  permalink: /asia
+  description: Asia tag description
+
+SriLanka:
+  label: Sri Lanka
+  permalink: /srilanka
+  description: Sri Lanka

@@ -1,0 +1,29 @@
+.carouselContainer {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carouselImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Fixed height for all images */
+  }
+  
+  .imageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Inherit full height from parent */
+    padding-right: 10px
+  }
+  
+  .carouselImage {
+    height: 100%; /* Fill the full height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Don't crop */
+    border-radius: 5px;
+  }
+
+
+  

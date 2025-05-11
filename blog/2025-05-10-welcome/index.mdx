@@ -1,0 +1,98 @@
+---
+slug: welcome
+title: A Different Kind of Content
+description: tomstimecapsule - Welcome to my photography journal 
+authors: robotham
+tags: [SocialMedia]
+keywords: [toms time capsule, social media, instagram, photography, media]
+image: './desk.jpg'
+date: 2025-05-10
+unlisted: false
+---
+
+import FullWidthImage from '../../src/components/BlogImages/blogImages'
+import image from './desk.jpg'
+import Sep from '../../src/components/SectionSeparator/sectionSeparator'
+import MasonryGallery from '../../src/components/MasonryGallery/masonryGallery';
+
+
+
+ Hi everyone — I'm Tom, a 33 year old photographer. Originally from the UK, on November the 1st 2016 I moved to Bavaria, Germany. Some eight years and change later, I'm still here. Take a read to get to know me and my goals with this journal.
+
+{/* truncate */}
+
+ <MasonryGallery
+  images={[
+    {
+        image: image,
+        href: '/',
+        title: 'The Drawing Board',
+        author: '',
+        textColor: '#fff', // or 'white', '#fff', 'rgba(0,0,0,0.8)', etc.
+        tag: (
+            <>
+                <i className="fa-solid fa-mobile-screen-button" style={{ marginRight: '5px' }}></i>
+                Samsung s21
+            </>
+        ),  
+    }
+  ]}
+  columns={1}
+/>
+
+
+{/* <FullWidthImage 
+    imagePath={image} 
+    description={{
+    title: "The Drawing Board",
+    content: (
+    <p>
+        Ideas, Ideas, ... Ideas. 
+    </p>
+    ),
+}}
+FullWidthImage/> */}
+
+{/* ## Who Am I?
+
+Hi everyone — I'm Tom, a 33 year old photographer.
+
+Originally from the midlands in the UK, on November the 1st 2016 I moved to Bavaria, Germany. Some eight years and change later I'm still here. Welcome to the first journal entry... */}
+
+## What's This About?
+
+One of the things I love about photography is how it's broadened my perspectives. Weather it's a particular moment, exploring a new country or city, working, or traveling, I've found that photography has changed how I compose myself, and how view the world. 
+
+Photography involves numerous creative and technical aspects such as composition, editing, lighting, optics, exposure, depth of field, and so much more. As most of my education and work has involved combining creative and technical aspects, photography is an outlet that allows me to combine these interests and skills in a new way, with the notable (yet pleasant) absence of code compilation errors or statistical analysis. Moreover, the immediate feedback of a captured image offers a nice contrast to the more arduous and lengthy process of research. However, there is one element that I miss in photography that, in and of itself, falls short of when it comes to creativity — writing.
+
+I hear you — "Tom, photography is about storytelling through imagery, not reading an essay", and I completely agree, a picture tells a 1000 words, as the saying goes.
+
+<Sep/>
+
+## So what's the goal here?
+
+The goal with this journal is to add different a kind of photography-related content... different than what normal social media outlets are designed for, anyway.
+
+Social media is a great way to post a 1000-word picture, and there are many benefits to using such platforms. Low-maintenance, networking, a ready-to-go publication channel to a potentially unlimited audience, and so on. However, one thing I'd like to have is a space to publish content that's not curated to appease requirements set about from a third-party. In this case, exercising some creative writing in longer-form content. 
+
+Social media posts allow you to write lengthy captions, and the 'stories' format is a good way of (re)posting content with audience engagement. But, for me personally, the freedom of being able to write and refine my ideas and thoughts without having to concern myself with the surrounding algorithm-trends is a refreshing change (both in terms of consuming and creating) to the competitive influencer-saturated space of social media. This often feels like shouting into the void, particularly in the presence of more AI- and bot-generated content, maybe the internet really is dead[^1] . I understand the irony of still having to use social media to maybe promote / advertise this new space. However, the creative writing, content, format, and presentation are only limited by what I can implement. Hence, I feel having an online presence separate from social media demands more responsibility of the author, and in turn, becomes more authentic.  
+
+Regardless of social media, I like to build. Designing and maintaining a website provides gives me an outlet for additional hobbies surrounding photography. I believe there's a lot more that can be shared about the experience that goes beyond the image. For many people the additional overhead of designing and developing an online space is work that can be simply bypassed with other website designers, assets, repositories etc. However, this is also something I find interesting, and to combine it with photography and writing feels like a win-win.
+
+<Sep/>
+
+## What You Can Expect?
+
+For now, this website will consist of the following:
+
+- A sample portfolio of photography.
+- Creative writing in the form of journal entries for the following topics:
+    - Thoughts: A place to collect and share ideas around the various aspects of photography including; editing, social media, and the technology landscape.
+    - Places: Entries around places I've visited, backpacking, and general travel and adventure.
+    - Gear: Sharing experiences with photography gear.
+
+The future holds many possibilities, and I hope to build on this space with collaborative entries, invite other co-authors to publish their own opinions and experiences, and include some larger projects including videography. However, for now, this is simply the first step. 
+
+Thanks for reading, and see you in the next one <i class="fa-regular fa-hand-peace"/>
+
+[^1]: Artificial influencers and the dead internet theory - https://link.springer.com/content/pdf/10.1007/s00146-023-01857-0.pdf
