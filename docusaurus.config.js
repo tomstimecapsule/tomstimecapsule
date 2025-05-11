@@ -13,14 +13,11 @@ const config = {
   title: 'Photography, Videography, Media',
   tagline: 'Lifestyle and Travel Photography',
   favicon: 'img/icon.ico',
-
   url: 'https://tomstimecapsule.github.io',
-  
   baseUrl: '/',
   projectName: 'tomstimecapsule.github.io',
   organizationName: 'tomstimecapsule',
   trailingSlash: false,
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
